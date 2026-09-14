@@ -206,7 +206,7 @@
     <!-- Bagian JavaScript (Logika Aplikasi) -->
     <script>
         // ⚠️ UBAH NOMOR INI dengan nomor WhatsApp tokomu (gunakan 62, jangan pakai + atau 0)
-        const NOMOR_WHATSAPP = "6285732544510"; 
+        const NOMOR_WHATSAPP = "6285732544510_WHATSAPP"; 
 
         let keranjang = [];
 
@@ -275,7 +275,7 @@
 
             pesan += `\n💰 *Total Pembayaran:* Rp ${totalHarga.toLocaleString('id-ID')}`;
 
-            const urlWhatsApp = `https://wa.me{6285732544510}?text=${encodeURIComponent(pesan)}`;
+            const urlWhatsApp = `https://wa.me{6285732544510_WHATSAPP}?text=${encodeURIComponent(pesan)}`;
 
             window.open(urlWhatsApp, '_blank');
         }
